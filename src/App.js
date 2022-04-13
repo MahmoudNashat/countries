@@ -18,7 +18,7 @@ function App() {
   }, [mode])
   useEffect(() => {
     dispatch(fetchData())
-  }, [])
+  })
   const theme = createTheme(Theme(mode))
   return (
     <ThemeProvider theme={theme}>
