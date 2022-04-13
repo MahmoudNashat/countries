@@ -1,0 +1,9 @@
+export const FETCH_DATA_LOADING = "FETCH-DATA-LOADING";
+export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";
+export const FETCH_DATA_FAILURE = "FETCH_DATA_FAILURE";
+
+export const MODE = "MODE";
+export const DETAILS_PAGE = "DETAILS_PAGE";
+export const PAGE_NUM = "PAGE_NUM";
+export const SEARCH_VALUE = "SEARCH_VALUE";;
+export const FILTER_BY_REGION = "FILTER_BY_REGION";
