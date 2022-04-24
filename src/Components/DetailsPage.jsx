@@ -24,7 +24,7 @@ function DetailsPage() {
     console.log(detailsPage);
     const navigate = useNavigate()
     const handelBack = () => {
-        navigate(-1)
+        navigate("/")
     }
     return (
         <Container maxWidth={false}>

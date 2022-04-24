@@ -1,4 +1,9 @@
 export const Theme = (mode) => ({
+    typography: {
+        fontFamily: [
+            'Nunito Sans', 'sans-serif'
+        ].join(",")
+    },
     palette: {
         mode,
         ...(mode === "light" ? {

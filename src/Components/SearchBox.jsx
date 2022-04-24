@@ -58,19 +58,20 @@ function SearchBox() {
                     <FormControl fullWidth className={classes.select}>
                         <InputLabel id="region">Filter by Region</InputLabel>
                         <Select
+                            className={classes.select}
                             value={region}
                             labelId="region"
                             label="Region"
                             onChange={e => { handleRegion(e.target.value) }}
                             color="element"
                             MenuProps={{
-                                disableScrollLock: true,
+                                disableScrollLock: false,
                             }}
                         >
                             <MenuItem value="">
                                 <em>None</em>
                             </MenuItem>
-                            <MenuItem value="Africa">Africa</MenuItem>
+                            <MenuItem value="Africa" style={{ backgroundColor: "theme.palette.element.main" }}>Africa</MenuItem>
                             <MenuItem value="Americas">Americas</MenuItem>
                             <MenuItem value="Asia">Asia</MenuItem>
                             <MenuItem value="Europe">Europe</MenuItem>
