@@ -38,6 +38,7 @@ function CountriesItems() {
         })
         localStorage.setItem("detailsItem", JSON.stringify(detailsItem))
         dispatch(showDetails())
+        document.documentElement.scrollTop = 0;
     }
     return (
         <Container maxWidth={false}>
